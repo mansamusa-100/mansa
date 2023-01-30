@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="project.js">
+    <link rel="stylesheet" href="app.js">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">This Is My Portfolio Website</h1>
+        <ul class="nav-links-container">
+            <li class="nav-link"><a href="#home-section" class="links active">home</a></li>
+            <li class="nav-link"><a href="#project-section" class="links">project</a></li>
+            <li class="nav-link"><a href="#about-section" class="links">about</a></li>
+            <li class="nav-link"><a href="#contact-section" class="links">contact</a></li>
+        </ul>
+    </nav>
+
+    <header class="header" id="home-section">
+        <div class="content"><br>
+            <h1 class="header-heading">Hey, I am <span class="brand-name">MUSA <span>SUSO</span></span></h1>
+            <a href="#" class="btn">Hire</a>
+        </div>
+        <div class="header-img-container">
+            <div class="circle"></div>
+            <img src="img/header-img.jpg" class="header-img" alt="">
+        </div>
+    </header>
+
+
+    <section id="about-section">
+        <h1 class="heading">about me</h1>
+
+        <div class="about-container">
+            <div class="image-container">
+                <div class="square"></div>
+                <img src="img/about.jpg" class="about-img" alt="">
+                <div class="social-links">
+                    <a href="#"><img src="img/github.png" class="social-img" alt=""></a>
+                    <a href="#"><img src="img/insta.png" class="social-img" alt=""></a>
+                    <a href="#"><img src="img/fb.png" class="social-img" alt=""></a>
+                    <a href="#"><img src="img/twitter.png" class="social-img" alt=""></a>
+                    <a href="#"><img src="img/linked.png" class="social-img" alt=""></a>
+                </div>
+            </div>
+
+            <div  class="info">
+                <p>My name is Musa Suso. A young upcoming developer and a qualified Mathematics teacher. Currently undergoing an undergraudate at The University of The Gambia, studying Mathematics(Major) and Computer Science(Minor).</p>
+                <a href="#" class="btn">hire me</a>
+                <a href="Download.html" class="btn">download CV</a>
+            </div>
+        </div>
+
+        <h2 class="sub-heading">skills</h2>
+        <div class="skills">
+            <p class="skill-name">HTML</p>
+            <p class="skill-name">CSS</p>
+            <p class="skill-name">JavaScript</p>
+            <p class="skill-name">React.js</p>
+            <p class="skill-name">Node.js</p>
+            <p class="skill-name">PSQL</p>
+            <p class="skill-name">MongoDB</p>
+            <p class="skill-name">Firebase</p>
+            <p class="skill-name">Fullstack Development</p>
+            <p class="skill-name">Frontend Development</p>
+            <p class="skill-name">APIs</p>
+            <p class="skill-name">React Native</p>
+        </div>
+
+        <h2 class="sub-heading">education and experiences</h2>
+        <div class="timeline-container">
+            <div class="card-container">
+                <div class="card">
+                    <h1 class="card-title">2001 - 2007</h1>
+                    <p class="card-body">Complete primary education </p>
+                    <p><b>CERTIFICATE</b>: COMMON ENTRANCE</p>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <h1 class="card-title">2007 - 2011</h1>
+                    <p class="card-body"> COMPLETE UPPER BASIC EDUCATION</p>
+                    <P><b>CERTIFICATE</b>: GABACE</P>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <h1 class="card-title">2011 - 2014</h1>
+                    <p class="card-body"> COMPLETE SENIOR SECONDARY EDUCATION</p>
+                    <p><b>CERTIFICATE</b>: WASSCE</p>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <h1 class="card-title">2015 - 2018</h1>
+                    <p class="card-body">COMPLETE GAMBIA COLLEGE</p>
+                    <p>SCHOOL OF EDUCATION</p>
+                    <p><b>CERTIFICATE</b>: HIGHER'S TEACHER CERTIFICATE(MATHEMATICS AND S.E.S)</p>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <h1 class="card-title">2017 - 2018</h1>
+                    <p class="card-body">TEACHER TRAINEE</p>
+                    <P>TAUGHT MATHEMATICS AT KAUR SENIOR SECONDARY SCHOOL FROM GRADE 10-12 AND FURTHER MATHEMATICS FROM GRADE 10-11</P>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <h1 class="card-title">2018 - 2021</h1>
+                    <p class="card-body">QUALIFIED TEACHER</p>
+                    <P>TAUGHT MATHEMATICS IN NJAU BASIC CYCLE SCHOOL. FROM GRADE 7-9</P>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <h1 class="card-title">2021 - 2025</h1>
+                    <p class="card-body"> BSc in EDUCATION (Pending)</p>
+                    <P>MATHEMATICS</P>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <section id="project-section">
+        <h1 class="heading">Projects</h1>
+
+        <div class="filter">
+            <button class="btn filter-btn active">all</button>
+            <button class="btn filter-btn">css</button>
+            <button class="btn filter-btn">javascript</button>
+            <button class="btn filter-btn">fullstack</button>
+        </div>
+        <div class="project-container">
+            <div class="project-card">
+                <div class="project-wrapper">
+                    <div class="project-thumbnail">
+                        <img src="img/close.png" class="close-btn" alt="">
+                        <img src="img/project-1.png" class="project-img" alt="">
+                        <span class="tags">#javascript, #css, #fullstack</span>
+                    </div>
+
+                    <div class="project-body">
+                        <h1 class="project-name">project 1</h1>
+                        <p class="project-detail">This is my first project</p>
+                        <a href="#" class="btn">github</a>
+                        <a href="#" class="btn">see live</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-wrapper">
+                    <div class="project-thumbnail">
+                        <img src="img/close.png" class="close-btn" alt="">
+                        <img src="img/project-2.png" class="project-img" alt="">
+                        <span class="tags">#javascript, #css, #fullstack</span>
+                    </div>
+
+                    <div class="project-body">
+                        <h1 class="project-name">project 1</h1>
+                        <p class="project-detail">This is my first project</p>
+                        <a href="#" class="btn">github</a>
+                        <a href="#" class="btn">see live</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-wrapper">
+                    <div class="project-thumbnail">
+                        <img src="img/close.png" class="close-btn" alt="">
+                        <img src="img/project-3.png" class="project-img" alt="">
+                        <span class="tags">#javascript, #css, #fullstack</span>
+                    </div>
+
+                    <div class="project-body">
+                        <h1 class="project-name">project 1</h1>
+                        <p class="project-detail">This is my first project</p>
+                        <a href="#" class="btn">github</a>
+                        <a href="#" class="btn">see live</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-wrapper">
+                    <div class="project-thumbnail">
+                        <img src="img/close.png" class="close-btn" alt="">
+                        <img src="img/project-4.png" class="project-img" alt="">
+                        <span class="tags">#javascript, #css, #fullstack</span>
+                    </div>
+
+                    <div class="project-body">
+                        <h1 class="project-name">project 1</h1>
+                        <p class="project-detail">This is my first project</p>
+                        <a href="#" class="btn">github</a>
+                        <a href="#" class="btn">see live</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-wrapper">
+                    <div class="project-thumbnail">
+                        <img src="img/close.png" class="close-btn" alt="">
+                        <img src="img/project-5.png" class="project-img" alt="">
+                        <span class="tags">#javascript, #css, #fullstack</span>
+                    </div>
+
+                    <div class="project-body">
+                        <h1 class="project-name">project 1</h1>
+                        <p class="project-detail">This is my first project</p>
+                        <a href="#" class="btn">github</a>
+                        <a href="#" class="btn">see live</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-wrapper">
+                    <div class="project-thumbnail">
+                        <img src="img/close.png" class="close-btn" alt="">
+                        <img src="img/project-6.png" class="project-img" alt="">
+                        <span class="tags">#javascript, #css, #fullstack</span>
+                    </div>
+
+                    <div class="project-body">
+                        <h1 class="project-name">project 1</h1>
+                        <p class="project-detail">This is my first project</p>
+                        <a href="#" class="btn">github</a>
+                        <a href="#" class="btn">see live</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-wrapper">
+                    <div class="project-thumbnail">
+                        <img src="img/close.png" class="close-btn" alt="">
+                        <img src="img/project-7.png" class="project-img" alt="">
+                        <span class="tags">#javascript, #css, #fullstack</span>
+                    </div>
+
+                    <div class="project-body">
+                        <h1 class="project-name">project 1</h1>
+                        <p class="project-detail">This is my first project</p>
+                        <a href="#" class="btn">github</a>
+                        <a href="#" class="btn">see live</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-wrapper">
+                    <div class="project-thumbnail">
+                        <img src="img/close.png" class="close-btn" alt="">
+                        <img src="img/project-8.png" class="project-img" alt="">
+                        <span class="tags">#javascript, #css, #fullstack</span>
+                    </div>
+
+                    <div class="project-body">
+                        <h1 class="project-name">project 1</h1>
+                        <p class="project-detail">This is my first project</p>
+                        <a href="#" class="btn">github</a>
+                        <a href="#" class="btn">see live</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact-section">
+        <h1 class="heading">contact</h1>
+        <div class="form">
+            <input type="text" placeholder="name">
+            <input type="text" placeholder="email">
+            <input type="text" placeholder="subject">
+            <textarea placeholder="message"></textarea>
+            <button class="contact-btn">contact</button>
+        </div>
+    </section>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
